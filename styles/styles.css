@@ -1,9 +1,14 @@
+:root {
+    /*Put some variables in here when you think they are needed*/
+    --center-text: center;
+    --image-height: auto;
+}
 main {
     max-width: 840px;
 }
 main img {
     width: 150px;
-    height: auto;
+    height: var(--image-height);
 }
 aside {
     width: 20rem;
@@ -12,11 +17,11 @@ aside {
     padding:0%;
     background-color: #ffffff;
     color: #413d3d;
-    text-align: center
+    text-align: var(--center-text);
 }
 aside img {
     width: 200px;
-    height: auto;
+    height: var(--image-height);
 }
 nav {
     background-color: darkblue;
@@ -32,7 +37,7 @@ color: darkblue;
 }
 img {
     width: 150px;
-    height: auto;
+    height: var(--image-height);
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
@@ -43,5 +48,5 @@ p {
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
-    text-align: center;
+    text-align: var(--center-text);
 }
