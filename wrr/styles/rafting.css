@@ -1,0 +1,75 @@
+:root {
+    --primary-color:
+        /*Mantis*/
+        #7AC74F;
+    --secondary-color:
+        /*Indigo Dye*/
+        #124E78;
+    --accent1-color:
+        /*Amber*/
+        #F2BB05;
+    --accent2-color:
+        /*Thistle*/
+        #BFACC8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Noto Sans", serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Roboto", serif;
+}
+
+main {
+    max-width: 960px;
+}
+nav {
+    text-decoration: none;
+}
+
+h1 {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    opacity: .7;
+    padding: 1rem;
+    text-align: center;
+}
+
+div.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+article {
+    position: absolute;
+    bottom: 90px;
+    left: 90px;
+    width: 80%;    
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+.hero article img {
+    width: 100px;
+    height: auto;
+    float: right;
+}
+
+footer a {
+    text-decoration: none;
+}
