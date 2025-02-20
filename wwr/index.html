@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adventurers Wanted - About</title>
+    <title>Adventurers Wanted</title>
     <link rel="stylesheet" href="styles/rafting.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,11 +26,32 @@
             <img src="images/hero_image.webp" alt="Hero">
             <h1>Rafting Forever!!</h1>
             <article>
-                <img src="images/red_raft.webp" alt="Happy Person">
-                <p>Our mission is to provide the best rafting experience. Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+                <h2>Ready for an Adventure?</h2>
+                <p>Don't miss out on our exciting rafting trips! Click the link below to explore our trips and book your adventure
+                    today.</p>
+                <a href="trips.html" class="cta-button">Explore Trips</a>
             </article>
         </div>
+            <section id="purpose-offerings">
+                <h2>Our Purpose and Offerings</h2>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <img src="images/rafting1.webp" alt="Rafting Adventure">
+                        <p>Experience the thrill of white water rafting with our expert guides. Our trips are designed for all skill
+                            levels.</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="images/rafting2.webp" alt="Rafting Group">
+                        <p>Join a group of adventurers and make new friends while navigating the rapids. Our group trips are perfect
+                            for team building.</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="images/rafting3.webp" alt="Rafting Scenery">
+                        <p>Enjoy breathtaking scenery and wildlife as you paddle through pristine rivers. Our trips offer a unique
+                            way to connect with nature.</p>
+                    </div>
+                </div>
+            </section>
             <section id="history">
                 <h2>History</h2>
                 <p>beep boop bla bla bla</p>
@@ -44,6 +65,18 @@
                 <img src="images/people.webp" alt="Celebration!">
                 <img src="images/red_raft.webp" alt="Rocky Waters">
                 <img src="images/wide_waters.webp" alt="Waters">
+            </section>
+            <section id="newsletter">
+                <h2>Sign Up for Our Newsletter</h2>
+                <form action="submit_newsletter.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+            
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+            
+                    <button type="submit">Subscribe</button>
+                </form>
             </section>
     </main>
     <footer>
