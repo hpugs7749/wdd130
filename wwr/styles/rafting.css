@@ -144,3 +144,8 @@ footer {
     display: flex;
     gap: 20px;
 }
+
+.sociallinks img {
+    width: 50px;
+    height: auto;
+}
