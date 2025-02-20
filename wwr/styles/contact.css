@@ -1,0 +1,112 @@
+:root {
+    --primary-color:
+        /*Mantis*/
+        #7AC74F;
+    --secondary-color:
+        /*Indigo Dye*/
+        #124E78;
+    --accent1-color:
+        /*Amber*/
+        #F2BB05;
+    --accent2-color:
+        /*Thistle*/
+        #BFACC8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Noto Sans", serif;
+}
+main {
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+header,
+main,
+footer {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header,
+footer {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 30px;
+    background-color: var(--primary-color);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+}
+
+header nav a {
+    display: block;
+    flex: 1 1 auto;
+    text-align: center;
+    width: 80px;
+    margin: 25px;
+    padding: 10px 20px;
+    border: 2px solid var(--secondary-color);
+    border-radius: 5px;
+    text-decoration: none;
+    color: var(--secondary-color);
+    background-color: var(--accent1-color);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header nav a:hover {
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
+}
+
+header img {
+    grid-column: 1 / 2;
+    width: 150px;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Roboto", serif;
+}
+
+h1 {
+    position: absolute;
+    text-align: center;
+}
+
+
+footer {
+    text-decoration: none;
+    margin: 50px auto;
+}
+
+.sociallinks {
+    display: flex;
+    gap: 20px;
+}
+
+.sociallinks img {
+    width: 50px;
+    height: auto;
+}
